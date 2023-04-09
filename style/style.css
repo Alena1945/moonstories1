@@ -89,7 +89,7 @@ body {
     font-size: 14px;
     font-weight: normal;
 
-    padding-top: 45%;
+    padding-top: 500px;
     padding-left: 88px;
 
 }
@@ -216,8 +216,8 @@ body {
     padding: 12px 88px;
     color: #333;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 15px;
-    font-weight: normal;
+    font-size: 16px;
+    font-weight: 500;
     text-decoration: none;
     text-align: left;
     opacity: 0.5;
