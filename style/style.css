@@ -84,7 +84,7 @@ body {
     visibility: hidden;
     top: 0;
     left: -100%;
-    width: 300px;
+    width: 36%;
     height: 100%;
     margin: 0;
     padding: 80px 0;
@@ -92,6 +92,7 @@ body {
     text-align: center;
     background-color: #ECEFF1;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    z-index: 3;
 }
 
 .hamburger-name {
@@ -335,16 +336,11 @@ body {
     text-align: center;
     border: 1px solid #000000;
     border-radius: 15px;
-    width: 300px;
-    height: 60px;
-    padding-top: 16px;
+    padding: 15px 105px;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
-    position: relative;
-    left: 0;
-
 }
 
 .lamp__info-btns .lamp__info-read-more {
@@ -403,8 +399,8 @@ opacity: 1;
 }
 
 .lamp1{
-    top: 80%;
-    left: 26%;
+    top: 78%;
+    left: 29%;
 }
 
 .lamp2{
