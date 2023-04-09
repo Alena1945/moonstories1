@@ -500,6 +500,10 @@ opacity: 1;
     font-size: 16px;
     font-weight: bold;
     color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.lamp__info-name:hover {
     opacity: 1;
 }
 
@@ -520,6 +524,8 @@ opacity: 1;
     font-size: 12px;
     font-weight: 300;
     color: #FFFFFF;
+    line-height: 1.5;
+    padding-top: 10px;
 }
 
 .project__inner {
