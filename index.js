@@ -1,3 +1,26 @@
+$(".header-menu__item").click(function(){
+  $(".header-menu__box .li").removeClass("active");
+  if($(this).parents("li").hasClass("active")){
+    $(this).parents("li").removeClass("active");
+  }else{
+    $(this).parents("li").addClass("active")
+  }
+ 
+})
+
+
+$(".header-menu__nav").click(function(){
+  if($(".header-menu__box").hasClass("active")){
+    // $("body").removeClass("open_menu");
+    // $(".header-menu__box").removeClass("active");
+  }else{
+    // $("body").addClass("open_menu");
+    // $(".header-menu__box").addClass("active");
+  }
+  
+})
+
+
 let map;
 
 function initMap2() {
